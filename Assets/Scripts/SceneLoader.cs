@@ -19,8 +19,17 @@ public class SceneLoader : MonoBehaviour
     IEnumerator delaySplash()
     {
 
-        yield return new WaitForSeconds(autoLoadNextLevelAfter);
-        LoadNextScene();
+        if (autoLoadNextLevelAfter == 0f)
+        {
+
+
+
+        }
+        else
+        {
+            yield return new WaitForSeconds(autoLoadNextLevelAfter);
+            LoadNextScene();
+        }
 
     }
 
@@ -29,6 +38,16 @@ public class SceneLoader : MonoBehaviour
 
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex + 1);
+
+
+
+    }
+
+    public void LoadStringScene( string name)
+    {
+
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(name);
 
 
 
