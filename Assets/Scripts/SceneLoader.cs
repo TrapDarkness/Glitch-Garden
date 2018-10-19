@@ -19,7 +19,7 @@ public class SceneLoader : MonoBehaviour
     IEnumerator delaySplash()
     {
 
-        if (autoLoadNextLevelAfter == 0f)
+        if (autoLoadNextLevelAfter <= 0f)
         {
 
 

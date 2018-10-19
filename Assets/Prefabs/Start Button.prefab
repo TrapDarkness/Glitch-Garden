@@ -85,8 +85,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114620475056033484, guid: 64815216b877a41f097d70dfa45a37bc,
-          type: 2}
+      - m_Target: {fileID: 11400000, guid: ed65dde16a38c42a79b8011ae4ed0bbb, type: 2}
         m_MethodName: LoadStringScene
         m_Mode: 5
         m_Arguments:
