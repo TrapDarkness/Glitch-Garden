@@ -22,7 +22,7 @@ public class SceneLoader : MonoBehaviour
         if (autoLoadNextLevelAfter <=   0f)
         {
 
-
+            Debug.Log("Level auto load disabled,  a positive number in seconds");
 
         }
         else

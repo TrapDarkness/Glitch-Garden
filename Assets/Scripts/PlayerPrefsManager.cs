@@ -12,7 +12,7 @@ public class PlayerPrefsManager : MonoBehaviour {
 
     public static void SetMasterVolume(float volume)
     {
-        if (volume >= 1f && volume <= 3f)
+        if (volume >= 0f && volume <= 1f)
         {
 
             PlayerPrefs.SetFloat(MASTER_VOLUME_KEY, volume);
