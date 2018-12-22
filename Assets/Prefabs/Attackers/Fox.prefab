@@ -37,8 +37,9 @@ GameObject:
   - component: {fileID: 4495880825917334}
   - component: {fileID: 95903695430755768}
   - component: {fileID: 114076249197720602}
-  - component: {fileID: 50817793915326180}
   - component: {fileID: 61828395440939386}
+  - component: {fileID: 114193696035778374}
+  - component: {fileID: 50852197039089438}
   m_Layer: 0
   m_Name: Fox
   m_TagString: Untagged
@@ -66,14 +67,14 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1591441775186926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5, y: 4, z: 0}
+  m_LocalPosition: {x: 9, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4335393646305234}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50817793915326180
+--- !u!50 &50852197039089438
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
@@ -147,7 +148,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2ee4ee435d264a2194165535b50ea55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 0.37
+  currentSpeed: 0
+--- !u!114 &114193696035778374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1591441775186926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4983f53c5078643618264c1ea915ca5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212249453749697416
 SpriteRenderer:
   m_ObjectHideFlags: 1
