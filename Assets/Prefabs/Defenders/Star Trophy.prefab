@@ -73,6 +73,7 @@ GameObject:
   - component: {fileID: 50843400615859166}
   - component: {fileID: 61555713791087528}
   - component: {fileID: 114088689930592406}
+  - component: {fileID: 114842012857702548}
   m_Layer: 0
   m_Name: Star Trophy
   m_TagString: Untagged
@@ -101,7 +102,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1656442921129628}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1, y: 4, z: 0}
+  m_LocalPosition: {x: 1, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4019446001563762}
@@ -254,6 +255,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce6d42dda1444036ae00f7bd45069c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114842012857702548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1656442921129628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43cb84df345c43318157b8e174f0d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!212 &212367265860077922
 SpriteRenderer:
   m_ObjectHideFlags: 1
