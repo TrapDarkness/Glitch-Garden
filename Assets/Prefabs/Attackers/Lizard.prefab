@@ -37,10 +37,10 @@ GameObject:
   - component: {fileID: 4091011897827334}
   - component: {fileID: 95900888530856700}
   - component: {fileID: 114537951120460126}
-  - component: {fileID: 61383155268444376}
   - component: {fileID: 114146801947874208}
-  - component: {fileID: 50278581681055862}
   - component: {fileID: 114064272987780974}
+  - component: {fileID: 50278581681055862}
+  - component: {fileID: 61383155268444376}
   m_Layer: 0
   m_Name: Lizard
   m_TagString: Untagged
@@ -55,7 +55,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1797899879040438}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10, y: 3, z: 0}
+  m_LocalPosition: {x: 3, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4954100841935110}

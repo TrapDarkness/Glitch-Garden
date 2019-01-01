@@ -19,4 +19,28 @@ public class Projecile : MonoBehaviour {
         transform.Translate(Vector3.right * speed * Time.deltaTime);
 
 	}
+
+    void OnBecameInvisible()
+    {
+
+        Destroy(gameObject);
+
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        Attacker attacker = collision.gameObject.GetComponent<Attacker>();
+        Health health = collision.gameObject.GetComponent<Health>();
+
+        if (attacker & health)
+        {
+
+            health.DealDamage(damage);
+            Destroy(gameObject);
+
+        }
+
+    }
+
 }

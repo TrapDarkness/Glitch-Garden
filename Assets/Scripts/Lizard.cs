@@ -36,13 +36,8 @@ public class Lizard : MonoBehaviour
 
         }
 
-        if (obj.GetComponent<Stone>())
-        {
-
             anim.SetBool("isAttacking", true);
             attacker.Attack(obj);
-
-        }
 
         Debug.Log("Lizard collided with " + collision);
 
